@@ -1,0 +1,36 @@
+html, body {
+    font-size: 1rem;
+    line-height: 1.5;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.gradient {
+    background: rgb(0,97,242);
+    background: linear-gradient(135deg, rgba(0,97,242,1) 0%, rgba(162,56,147,1) 90%); 
+}
+
+#feature ul {
+    list-style-type: none;
+    padding-top: 2rem;
+}
+
+#feature ul li {
+    background: url(../img/check.svg) no-repeat;
+    padding-left: 2rem;
+    margin: 1rem 0;;
+}
+
+.icon {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+#gallery {
+    background-color: whitesmoke;
+}
